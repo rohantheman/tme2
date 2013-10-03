@@ -8,7 +8,7 @@ Motherboard  name=Asus, price=$37.5, order number=987654
 RAM  name=Kingston, size=512, price=$25.0, order number=123456
 You may overload each of the above methods as you think necessary.
  */
-package tme2.part1;
+
 
 import java.util.ArrayList;
 import java.util.Collection;

@@ -2,7 +2,7 @@
  * Design a mechanism that gives each instance of the container a unique identifier. 
 Implement as many methods as necessary. You must use Java generics features.*/
 
-package tme2.part1;
+
 
 import java.util.ArrayList;
 import java.util.Collection;

@@ -2,7 +2,7 @@
  * number of different classes of ComputerPart objects, Peripheral objects, and Service objects. 
  * Implement as many methods as necessary.
  */
-package tme2.part1;
+
 
 public class ComputerOrder extends GenericOrder<ComputerPart> {
 

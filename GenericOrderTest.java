@@ -1,4 +1,4 @@
-package tme2.part1;
+
 
 class GenericOrderTest {
 

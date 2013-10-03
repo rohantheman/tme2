@@ -8,7 +8,7 @@
  * @date  : Oct 21, 2005
  *
  ******************************************************************/
-package tme2.part1;
+
 abstract class Product {
     protected float price;
 

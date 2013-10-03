@@ -2,7 +2,7 @@
  * different classes of Cheese objects, Fruit objects, and Service objects. 
  * Implement as many methods as necessary.
 */
-package tme2.part1;
+
 
 public class PartyTrayOrder extends GenericOrder<Product> {
     static int uniqueID = 0;
