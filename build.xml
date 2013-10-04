@@ -42,7 +42,7 @@
   <target name="jar" depends="compile">
     <jar destfile="${dist.dir}\edu.rohan.build.tme2.ant.jar" basedir="${build.dir}">
       <manifest>
-        <attribute name="Main-Class" value="test.Main" />
+        <attribute name="Main-Class" value="GenericOrderTest" />
       </manifest>
     </jar>
   </target>
