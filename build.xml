@@ -47,6 +47,10 @@
     </jar>
   </target>
 
+<target name="run">
+        <java jar="dist/edu.rohan.build.tme2.ant.jar" fork="true"/>
+    </target>
+
   <target name="main" depends="compile, jar, docs">
     <description>Main target</description>
   </target>
