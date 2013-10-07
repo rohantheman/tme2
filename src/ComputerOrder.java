@@ -21,8 +21,12 @@ public class ComputerOrder extends GenericOrder<ComputerPart> {
 	createUniqueID();
     }
 
-    public void addProduct(ComputerPart p) {
-	listOfProducts.add(p);
+    public void addProduct(Product aProduct) throws ClassCastException {
+    	if(!((aProduct instanceof ComputerPart)||(aProduct instanceof Peripheral)||(aProduct instanceof Service)))
+    	throw new ClassCastException("Not a ComputerPart, Peripheral, or Service object");
+    	else{
+	listOfProducts.add(aProduct);
+    	}
     }
 
     public String toString() {
