@@ -31,7 +31,7 @@ public class OrderProcessor<T> {
 
     public void dispatchXXX() {
 	
-	for(T o : listOfOrders) {
+	for(T order : listOfOrders) {
   	    System.out.print(o.getClass() + "\t");
   	}
     }; // this method simulates the dispatch of the sorted collections. For
