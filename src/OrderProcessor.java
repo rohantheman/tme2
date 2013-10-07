@@ -29,7 +29,23 @@ public class OrderProcessor<T> {
        // identifier. You may refer to the TwoTuple.java example in the text
        // book.
 
-    public void dispatchXXX() {
+     public void dispatchComputerParts() {
+	 //ToDo
+	 //Insert code here to dispatch only ComputerParts objects!
+	 //Likewise for other dispatch methods!
+
+	for(T order : listOfOrders) {
+  	    System.out.print(order.getClass() + "\t");
+  	}
+    }; // this method simulates the dispatch of the sorted collections. For
+       // example, the method dispatchComputerParts() should produce this
+       // output:
+    /*
+     * Motherboard  name=Asus, price=$37.5, order number=123456 Motherboard 
+     * name=Asus, price=$37.5, order number=987654 RAM  name=Kingston,
+     * size=512, price=$25.0, order number=123456
+     */
+     public void dispatchXXX() {
 	
 	for(T order : listOfOrders) {
   	    System.out.print(order.getClass() + "\t");
