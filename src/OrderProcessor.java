@@ -32,7 +32,7 @@ public class OrderProcessor<T> {
     public void dispatchXXX() {
 	
 	for(T order : listOfOrders) {
-  	    System.out.print(o.getClass() + "\t");
+  	    System.out.print(order.getClass() + "\t");
   	}
     }; // this method simulates the dispatch of the sorted collections. For
        // example, the method dispatchComputerParts() should produce this
