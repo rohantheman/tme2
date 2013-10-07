@@ -14,14 +14,15 @@ import java.util.ArrayList;
 import java.util.Collection;
 
 public class OrderProcessor<T> {
-     Collection <T> order = new ArrayList<>();
+     Collection <T> listOfOrders = new ArrayList<>();
 
     public void accept(T genericOrder) {
-	order.add(genericOrder);
+	listOfOrders.add(genericOrder);
     }; // this method accepts a GenericOrder or any of its subclass objects and
        // stores it in any internal collection of OrderProcessor.
 
     public void process() {
+    	Collection.sort(listOfOrders);
     }; // this method sorts all accepted orders in the internal collection of
        // GenericOrder into collections of ComputerPart, Peripheral, Cheese,
        // Fruit, and Service. You must associate each object with the unique
@@ -30,7 +31,7 @@ public class OrderProcessor<T> {
 
     public void dispatchXXX() {
 	
-	for(T o : order) {
+	for(T o : listOfOrders) {
   	    System.out.print(o.getClass() + "\t");
   	}
     }; // this method simulates the dispatch of the sorted collections. For
