@@ -4,7 +4,7 @@
 */
 
 
-public class PartyTrayOrder extends GenericOrder<Product> {
+public class PartyTrayOrder extends GenericOrder {
     static int uniqueID = 0;
     
     public static int createUniqueID() {
