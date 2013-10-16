@@ -4,7 +4,7 @@
  */
 
 
-public class ComputerOrder extends GenericOrder<ComputerPart> {
+public class ComputerOrder extends GenericOrder {
 
     static int uniqueID = 0;
 
